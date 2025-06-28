@@ -1,0 +1,125 @@
+.chartswrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 3% 0;
+  flex-wrap: wrap;
+}
+
+h2 {
+  margin-left: 3%;
+}
+
+.chart1,
+.chart2 {
+  padding: 1rem;
+  box-shadow: 25px 25px 50px #bebebe, -25px -25px 50px #ffffff;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  height: 400px;
+  max-width: 100%;
+}
+
+.chart1 {
+  width: 63%;
+}
+.chart2 {
+  width: 35%;
+}
+.recharts-responsive-container {
+  height: 300px !important ;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .chartswrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .chart1,
+  .chart2 {
+    width: 90%;
+    height: auto;
+    min-height: 300px;
+  }
+  .recharts-surface {
+    height: 90% !important;
+  }
+  .recharts-responsive-container {
+    height: 250px !important ;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px to 767px) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .chartswrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .chart1,
+  .chart2 {
+    width: 90%;
+    height: auto;
+    min-height: 320px;
+  }
+  .recharts-surface {
+    height: 80% !important;
+  }
+  .recharts-responsive-container {
+    height: 250px !important ;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px to 991px) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .chartswrapper {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .chart1 {
+    width: 55%;
+    height: 380px;
+  }
+
+  .chart2 {
+    width: 40%;
+    height: 380px;
+  }
+  .recharts-surface {
+    height: 80% !important;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px to 1199px) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .chartswrapper {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .chart1 {
+    width: 60%;
+  }
+
+  .chart2 {
+    width: 38%;
+  }
+}
+
+/* Extra large devices (1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .chartswrapper {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .chart1 {
+    width: 63%;
+  }
+
+  .chart2 {
+    width: 35%;
+  }
+}

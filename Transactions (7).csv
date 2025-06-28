@@ -1,0 +1,10 @@
+Title,Amount,Description,Tag,Type,Paymentmethod,Date
+Salary,90000.00,,Salary,Income,,2024-12-01
+Freelance payment,20000.00,,Other,Income,,2024-12-05
+dividend from shares,5000.00,,Investment,Income,,2024-12-06
+Montly Grocery Shopping,8000.00,purchase of household items and grocery,Groceries,Expenses,card,2024-12-07
+monthly metro pass,3000.00,Monthly metro pass for travel,Transportation,Expenses,Phonepe,2024-12-10
+Doctor Appointment,10000.00,monthly check up,Medical,Expenses,paytm,2024-12-11
+Movie Night & outing,6000.00,tickets for movies and outing,Entertainment,Expenses,Online,2024-12-13
+kitchen,7000.00,kitchen utilites,Utilities,Expenses,online,2024-12-15
+loan payment,40000.00,home loan payment,Others,Expenses,online,2024-12-20

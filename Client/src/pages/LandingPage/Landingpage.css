@@ -1,0 +1,201 @@
+.Navbar {
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  /* border-radius: 30px; */
+  align-content: center;
+  align-items: center;
+  margin-left: 13%;
+  margin-top: 3%;
+  /* background-color: rgb(253, 251, 212); */
+  border-radius: 50px;
+  /* background: #e0e0e0; */
+  background-color: black;
+  color: white;
+  box-shadow: 25px 25px 50px #bebebe, -25px -25px 50px #ffffff;
+}
+.Lpage {
+  text-align: center;
+}
+
+#logotxt {
+  font-weight: bold;
+  padding: 1%;
+  margin: 10px;
+}
+
+.head {
+  margin-top: 10%;
+}
+
+.txt {
+  /* color: white; */
+  opacity: 0.7;
+}
+
+.txt1 {
+  /* color: white; */
+  opacity: 0.5;
+}
+
+.txt1:hover {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.txt:hover {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+#down {
+  font-weight: bold;
+  background-color: black;
+  padding: 15px;
+  margin-right: 19px;
+  margin-top: 13px;
+  border-radius: 15px;
+  color: white;
+}
+
+/* #down2 {
+  font-weight: bold;
+  background-color: rgb(253, 251, 212);
+  padding: 15px;
+  margin-right: 19px;
+  margin-top: 13px;
+  border-radius: 15px;
+  color: black;
+} */
+
+#Signupbtn {
+  margin: 6%;
+  color: black;
+  background: #e0e0e0;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: rgba(255, 255, 255, 0.333);
+  border-radius: 40px 40px 40px 40px;
+  padding: 10px 13px 10px 15px;
+  /* box-shadow: -4px -2px 16px 0px #ffffff, 4px 2px 16px 0px rgb(95 157 231 / 48%); */
+}
+#Signinbtn {
+  color: black;
+  background: #e0e0e0;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: rgba(255, 255, 255, 0.333);
+  border-radius: 40px 40px 40px 40px;
+  padding: 10px 13px 10px 15px;
+  /* box-shadow: -4px -2px 16px 0px #ffffff, 4px 2px 16px 0px rgb(95 157 231 / 48%); */
+}
+#navitems {
+  display: none; /* Initially hidden */
+}
+#ham {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  #navitems {
+    display: flex; /* or block, depending on your layout */
+    justify-content: space-between; /* Adjust as needed */
+    align-items: center; /* Adjust as needed */
+  }
+  #ham {
+    display: none; /* Hide the hamburger menu on larger screens */
+  }
+  .hero-img{
+    width: 90% !important;
+    margin: 0 auto;
+  }
+}
+
+/* For tablets and smaller screens */
+
+@media (max-width: 768px) {
+  .Navbar {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin-left: 5%;
+  }
+  #navitems {
+    display: none; /* Keep it hidden on mobile */
+  }
+  #ham {
+    display: block;
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+  }
+
+  #logotxt {
+    font-size: 1.5em;
+  }
+
+  .head {
+    margin-top: 5%;
+  }
+
+  .txt,
+  .txt1 {
+    font-size: 1.2em;
+  }
+
+  #down,
+  #down2 {
+    margin: 10px 0;
+    padding: 10px;
+  }
+  .hero-img{
+    width: 95% !important;
+    margin: 0 auto;
+
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+  .Navbar {
+    width: 90%;
+    margin: 10% auto;
+  }
+  #navitems {
+    display: none; /* Keep it hidden on mobile */
+  }
+
+  #logotxt {
+    font-size: 1.2em;
+  }
+
+  .head {
+    margin-top: 5%;
+    padding: 2%;
+  }
+
+  .txt,
+  .txt1 {
+    font-size: 1em;
+    text-align: center;
+  }
+  #ham {
+    display: block;
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+  }
+
+  #down,
+  #down2 {
+    padding: 8px;
+    font-size: 0.9em;
+  }
+  .hero-img{
+    width: 95% !important;
+    margin: 0 auto;
+
+  }
+}

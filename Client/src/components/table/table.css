@@ -1,0 +1,13 @@
+.input {
+  padding: 0 !important ;
+  border: none;
+}
+.transaction {
+  display: flex;
+  justify-content: space-between;
+}
+
+#txt {
+  box-shadow: 25px 25px 50px #bebebe, -25px -25px 50px #ffffff !important;
+  width: 50% !important;
+}

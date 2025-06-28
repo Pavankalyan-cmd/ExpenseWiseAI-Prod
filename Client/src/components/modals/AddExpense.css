@@ -1,0 +1,53 @@
+/* AddExpense.css */
+
+.responsive-expense-modal {
+    padding: 16px;
+    background-color: white;
+    border-radius: 8px;
+    width: 40%;
+    margin: 10% auto;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Breakpoint for tablets */
+  @media only screen and (max-width: 992px) {
+    .responsive-expense-modal {
+      width: 70%;
+      margin-top: 15%;
+    }
+  }
+  
+  /* Breakpoint for phones */
+  @media only screen and (max-width: 600px) {
+    .responsive-expense-modal {
+      width: 90%;
+      margin-top: 25%;
+      padding: 16px 12px;
+    }
+  
+    .modal-title {
+      font-size: 1.3rem;
+    }
+  }
+  
+  .modal-title {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 16px;
+    font-size: 1.5rem;
+  }
+  
+  .modal-button-group {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .modal-button-group {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  }
+  
